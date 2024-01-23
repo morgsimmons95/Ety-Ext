@@ -1,6 +1,36 @@
-<html>
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap">
+        <style>
+            body {
+                width: 400px;  /* Set the width of the popup */
+                height: 200px; /* Set the height of the popup */
+                overflow: auto; /* Add scrollbars if the content overflows */
+                background-color: #B1D295;
+                font-family: 'Quicksand';
+            }
+        </style>
+    </head>
+    <header>
+        <div class="flex-container width:400px">
+            <img src="icons/icons8-book-justicon-flat-96.png" alt="Icon">
+            <div style="flex-grow: 1; display: flex; justify-content: center;">
+                <h1>Etty</h1>
+            </div>
+        </div>
+        <div class="flex-container">
+            <h2>Etymology Search Tool</h2>
+        </div>
+    </header>
     <body>
-        <h1>Etymonline</h1>
-        <link rel="stylesheet" href="https://www.etymonline.com/word/extension">
+        <form onsubmit="" class="flex-container" role="search">
+            <input id="search" type="search" placeholder="Search Etymonline..." autofocus required />
+            <button type="submit">Go</button>    
+          </form>
+        <script src="popup.js"></script>
     </body>
+    <footer>
+        <a target="_blank" href="https://icons8.com/icon/IqX0ig6cqZWE/book">Icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+    </footer>
 </html>

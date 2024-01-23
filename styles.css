@@ -1,0 +1,24 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    }
+
+.flex-container h1 {
+    font-size: 32px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: right;
+    align-content: stretch;
+    align-items: right;
+}
