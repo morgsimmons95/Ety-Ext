@@ -5,9 +5,7 @@
     "version": "1.0",
     "permissions" : [
         "contextMenus",
-        "activeTab",
-        "tabs",
-        "scripting"
+        "tabs"
     ],
     "background": {
         "service_worker": "background.js"
