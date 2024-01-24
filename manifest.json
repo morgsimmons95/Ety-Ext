@@ -12,12 +12,6 @@
     "background": {
         "service_worker": "background.js"
     },
-    "content_scripts": [
-        {
-          "matches": ["<all_urls>"],
-          "js": ["content.js"]
-        }
-      ],
     "host_permissions": [
         "https://www.etymonline.com/*",
         "http://www.etymonline.com/*"
