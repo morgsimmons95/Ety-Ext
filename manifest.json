@@ -4,8 +4,7 @@
     "description": "Etty is a simple extension that allows you to find the etymological history of a word.",
     "version": "1.0",
     "permissions" : [
-        "contextMenus",
-        "tabs"
+        "contextMenus"
     ],
     "background": {
         "service_worker": "background.js"
