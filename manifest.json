@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Etty",
     "description": "Etty is a simple extension that allows you to find the etymological history of a word.",
-    "version": "1.0",
+    "version": "1.1",
     "permissions" : [
         "contextMenus"
     ],
