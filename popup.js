@@ -59,10 +59,16 @@ document.getElementById('searchForm').addEventListener('submit', async function(
         const a = document.createElement("a");
         a.href = "https://www.etymonline.com/word/" + word.split(" ")[0];
         a.textContent = "More";
+        a.id = "more";
         a.onclick = function () {
             chrome.tabs.create({url: "https://www.etymonline.com/word/" + word.split(" ")[0]});
         }
-        ul.insertAdjacentElement('afterend', a);
+        if(document.getElementById("more")) {
+            document.getElementById("more").replaceWith(a);
+        }
+        else {
+            ul.insertAdjacentElement('afterend', a);
+        }
     }
 })//addEventListener
 
